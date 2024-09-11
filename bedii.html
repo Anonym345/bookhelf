@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alışveriş Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">𝔅𝔬𝔬𝔨𝔖𝔥𝔢𝔩𝔣</h1>
+            <ul class="menu">
+                <li><a href="bedii.html">Bədii</a></li>
+                <li><a href="index.html">Elmi</a></li>
+                <li><a href="elaqe.html">Əlaqə</a></li>
+                <li><a href="about.html">Haqqımızda</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Ürün Ara...">
+                <button onclick="searchProduct()">Ara</button>
+            </div>
+        </nav>
+        <h1>Trentler</h1>
+    </header>
+
+    <section class="product-grid" id="product-list">
+        <div class="product" data-name="Ürün 1">
+            <img src="amfibiya-blade.jpg" alt="Ürün 1">
+            <h2>Amfibiya Adam</h2>
+            <p>Bu ürün hakkında kısa bilgi.</p>
+            <button>Oxu</button>
+        </div>
+        <div class="product" data-name="Ürün 2">
+            <img src="peter.jpg" alt="Ürün 2">
+            <h2>Peter Pan</h2>
+            <p>Bu ürün hakkında kısa bilgi.</p>
+            <button>Oxu</button>
+        </div>
+        <div class="product" data-name="Ürün 3">
+            <img src="heidi.jpg" alt="Ürün 3">
+            <h2>Heidi</h2>
+            <p>Bu ürün hakkında kısa bilgi.</p>
+            <button>Oxu</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

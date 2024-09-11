@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url(bckgrnd.jpg);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffcc00;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-container input {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #ff9900;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+    background-color: darkcyan;
+    /* Ürünü yukarı kaldırır */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    /* Gölgeyi büyütür */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.product p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+.logo {
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+
+.logo {
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
